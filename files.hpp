@@ -8,7 +8,6 @@
 #include <iostream>
 
 inline std::string read_file(const std::string& file_path) {
-  std::cout<<"rading file:" << file_path << std::endl; 
   std::fstream file;
 	file.open(file_path, std::ios::in);
 	std::stringstream buffer;
